@@ -93,9 +93,9 @@ begin
 		w_sw <= x"0"; wait for 10 ns;
             assert w_Y = '0' report "error on x0" severity failure;
         w_sw <= x"1"; wait for 10 ns;
-            assert w_Y = '1' report "error on Jan" severity failure;
+            assert w_Y = '0' report "error on Jan" severity failure;
         w_sw <= x"2"; wait for 10 ns;
-            assert w_Y = '0' report "error on Feb" severity failure;
+            assert w_Y = '1' report "error on Feb" severity failure;
         w_sw <= x"3"; wait for 10 ns;
             assert w_Y = '1' report "error on Mar" severity failure;
         w_sw <= x"4"; wait for 10 ns;
