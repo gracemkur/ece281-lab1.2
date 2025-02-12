@@ -73,7 +73,7 @@ begin
 	--assigning names to reflect original schematics (for ease of understanding if you wish to)
 	w_sel(0) <= i_C;	-- one
 	w_sel(1) <= i_B;
-	w_sel(2) <= i_C;
+	w_sel(2) <= i_A;
 	--finish assigning signals
 	
 	--enter your logic here to implement the mux.  See VHDL reference sheet for MUX syntax.	
